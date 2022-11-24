@@ -92,6 +92,78 @@ body {
     padding: 0px;
 }
 
+.continue {
+    margin-top: 25px;
+    height: 80px;
+    display: flex;
+}
+
+.course-card {
+    background-color: #f5f5f7;
+    border-radius: 14px;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card__img {
+    margin-left: 8px;
+    height: 64px;
+    width: 64px;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+}
+
+.card__img img {
+    position: relative;
+    left: 16px;
+    top: 16px;
+}
+
+.card__disc {
+    margin-left: 25px;
+}
+
+.card__disc h3 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.card__disc p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+.progress {
+    text-align: center;
+    margin-left: 45px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border: #0c0b0b solid 3px;
+    border-radius: 50%;
+}
+
+.btn_black {
+    height: 40px;
+    width: 120px;
+    background-color: #0c0b0b;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 40px;
+}
+
 .right-column {
     margin-top: 40px;
     width: 440px;
